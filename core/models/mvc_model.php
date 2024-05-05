@@ -1,6 +1,18 @@
 <?php
-#[\AllowDynamicProperties]
+
 class MvcModel {
+
+    public $model_name;
+    public $table_reference;
+    public $selects;
+    public $order;
+    public $joins;
+    public $conditions;
+    public $limit;
+    public $includes;
+    public $group;
+    public $per_page;
+    public $validate;
 
     public $name = null;
     public $table = null;
