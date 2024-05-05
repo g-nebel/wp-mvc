@@ -4,6 +4,7 @@ require_once 'mvc_loader.php';
 
 class MvcPublicLoader extends MvcLoader {
 
+
     public function flush_rewrite_rules($rules = array()) {
         global $wp_rewrite;
         if (is_object($wp_rewrite)) {

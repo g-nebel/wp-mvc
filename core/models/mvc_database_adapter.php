@@ -4,6 +4,7 @@ class MvcDatabaseAdapter {
 
     public $db;
     public $defaults;
+    public $schema;
 
     function __construct() {
         $this->db = new MvcDatabase();

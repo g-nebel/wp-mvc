@@ -1,7 +1,7 @@
 <?php
 
 class MvcFormHelper extends MvcHelper {
-
+    public $controller;
 	protected $is_in_admin_table = false;
 
     public function create($model_name, $options=array()) {

@@ -6,6 +6,8 @@ class MvcFileIncluder {
     private $plugin_paths = array();
     private $theme_path = '';
 
+    public $plugin_app_paths;
+
     function __construct() {
         $this->core_path = MVC_CORE_PATH;
         $this->plugin_app_paths = MvcConfiguration::get('PluginAppPaths');

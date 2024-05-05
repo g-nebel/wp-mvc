@@ -1,5 +1,5 @@
 <?php
-
+#[\AllowDynamicProperties]
 class MvcModelObject {
     
     public $__model_name = null;

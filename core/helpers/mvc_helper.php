@@ -1,7 +1,7 @@
 <?php
 
 class MvcHelper {
-
+    public $plugin_name;
     protected $file_includer = null;
     
     function __construct() {

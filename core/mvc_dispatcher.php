@@ -1,5 +1,5 @@
 <?php
-
+#[\AllowDynamicProperties]
 class MvcDispatcher {
 
     static function dispatch($options=array()) {

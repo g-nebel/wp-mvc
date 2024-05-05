@@ -1,7 +1,10 @@
 <?php
 
 abstract class MvcLoader {
+    public $plugin_name;
+    public $settings_names;
 
+    public $plugin_app_paths;
     protected $admin_controller_names = array();
     protected $admin_controller_capabilities = array();
     protected $core_path = '';
